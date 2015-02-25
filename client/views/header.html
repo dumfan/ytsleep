@@ -1,12 +1,17 @@
 <template name="header">
-<nav>
-	<div class="nav-wrapper">
-		<div class="col s6">
-			<a href="/" class="brand-logo">ytsleep</a>
-		</div>
-	</div>
-</nav>
-	<form class="go">
+ <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <div class="col s12">
+          <a href="#!" class="brand-logo">Logo</a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="{{ pathFor 'home' }}"><i class="mdi-action-home left"></i> Home</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+	<form class="go container">
 		<input type="text" name="vid" placeholder="video id">
 		<!--<input class="waves-effect waves-light btn" type="submit" value="Load video">-->
 	</form>
