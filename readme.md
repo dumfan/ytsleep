@@ -8,12 +8,14 @@ View this demo at http://ytsleep.beploy.se
 ### Install
 
 Install Meteor
-	$ curl https://install.meteor.com | /bin/sh
+
+    $ curl https://install.meteor.com | /bin/sh
 
 Clone and start
-	$ git clone https://github.com/dumfan/ytsleep
-	$ cd ytsleep
-	$ meteor
+
+    $ git clone https://github.com/dumfan/ytsleep    
+    $ cd ytsleep    
+    $ meteor
 
 ### todo
 
