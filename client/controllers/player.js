@@ -23,7 +23,8 @@ Template.player.rendered = function () {
           	'iv_load_policy': 3,
           	'modestbranding': 1,
           	'showinfo': 0,
-          	'rel': 0
+          	'rel': 0,
+            'loop': 1
           },
           //videoId: "LdH1hSWGFGU", 
       });
